@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: airflow-database
-  namespace: ersin-poc
+  namespace: airflow-v10
 spec:
   ports:
     - name: 5432-tcp

@@ -2,7 +2,7 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   name: airflow-webserver
-  namespace: ersin-poc 
+  namespace: airflow-v10 
 labels:
   deployment: airflow-webserver
 spec:

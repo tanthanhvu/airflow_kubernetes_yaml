@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: airflow-webserver
-  namespace: ersin-poc
+  namespace: airflow-v10
 spec:
   ports:
     - name: 8080-tcp

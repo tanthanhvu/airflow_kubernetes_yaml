@@ -2,7 +2,7 @@ kind: ConfigMap
 apiVersion: v1
 metadata:
   name: airflow-cfg-flower
-  namespace: ersin-poc
+  namespace: airflow-v10
   selfLink: /api/v1/namespaces/ersin-poc/configmaps/airflow-cfg-flower
 data:
   airflow.cfg: |-               

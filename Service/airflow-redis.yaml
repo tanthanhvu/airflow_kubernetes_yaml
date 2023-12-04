@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: airflow-redis
-  namespace: ersin-poc
+  namespace: airflow-v10
 spec:
   ports:
     - name: 6379-tcp
