@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: airflow-cfg-scheduler
   namespace: airflow-v10
-  selfLink: /api/v1/namespaces/ersin-poc/configmaps/airflow-cfg-scheduler
+  selfLink: /api/v1/namespaces/airflow-v10/configmaps/airflow-cfg-scheduler
 data:
   airflow.cfg: |-               
                 [core]

@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: airflow-cfg-flower
   namespace: airflow-v10
-  selfLink: /api/v1/namespaces/ersin-poc/configmaps/airflow-cfg-flower
+  selfLink: /api/v1/namespaces/airflow-v10/configmaps/airflow-cfg-flower
 data:
   airflow.cfg: |-               
                 [core]
